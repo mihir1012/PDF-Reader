@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:title="@string/app_name"
+        />
+    <ListView
+        android:layout_width="match_parent"
+    android:id="@+id/lv_pdf"
+    android:divider="#efefef"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:dividerHeight="5dp"
+    android:layout_height="wrap_content">
+
+    </ListView>
+</LinearLayout>
